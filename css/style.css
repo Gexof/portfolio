@@ -217,6 +217,10 @@ img {
         text-align: center;
     }
 
+      .header .container ul li a {
+        padding: 0;
+    }
+    
     .header .container ul li:last-child {
         padding-bottom: 25px;
     }
@@ -225,6 +229,7 @@ img {
 @media (max-width: 500px) {
     .header .container h1 a {
         margin-left: 20px;
+        font-size: 3rem;
     }
     
     .ham {
